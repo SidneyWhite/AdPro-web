@@ -13,18 +13,6 @@
     width: 100%;
 }
 
-#circle-solo {
-	width: 10px;
-	height: 10px;
-	background: red;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-  left: 50%;
-  position: absolute;
-  margin: 10px;
-}
-
 #circle {
 	width: 10px;
 	height: 10px;
@@ -39,8 +27,18 @@
 #section-divider {
   position: relative;
   height: 10px;
+  display: block;
 }
 
 #cover-picture{
   overflow: hidden!important;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+#contact {
+  border: 1px solid red;
 }
