@@ -12,6 +12,19 @@
     height: 1px;
     width: 100%;
 }
+
+#circle-solo {
+	width: 10px;
+	height: 10px;
+	background: red;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+  left: 50%;
+  position: absolute;
+  margin: 10px;
+}
+
 #circle {
 	width: 10px;
 	height: 10px;
