@@ -1,0 +1,28 @@
+.red-line {
+    background-color: red;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 50%;
+}
+
+#circle {
+	width: 10px;
+	height: 10px;
+	background: red;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+  position: absolute;
+  left: 50%;
+}
+
+#section-divider {
+  position: relative;
+  height: 10px;
+}
+
+#cover-picture{
+  overflow: hidden!important;
+}
