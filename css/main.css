@@ -1,5 +1,8 @@
-
-
+p.sansserif {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+    font-size: 35px!important;
+}
 .red-line {
     background-color: red;
     height: 1px;
