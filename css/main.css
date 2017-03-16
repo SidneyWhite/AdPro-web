@@ -1,8 +1,33 @@
+@media(max-width: 768px) {
+    .navbar-collapse {
+        background-color: rgba(245, 245, 245, 0.4)
+    }
+}
+
+.icon-bar {
+    background-color: white!important;
+}
+
+ul.nav li a {
+    color: white!important;
+}
+
+ul.nav li {
+    border-right: 1px red auto;
+}
+
+ul.nav li a:hover {
+    background: none!important;
+    background-color: transparent!important;
+    color: red!important;
+}
+
 p.sansserif {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-style: italic;
     font-size: 35px!important;
 }
+
 .red-line {
     background-color: red;
     height: 1px;
@@ -19,31 +44,31 @@ p.sansserif {
 }
 
 #circle {
-	width: 10px;
-	height: 10px;
-	background: red;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-  position: absolute;
-  left: 50%;
+    width: 10px;
+    height: 10px;
+    background: red;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
 }
 
 #section-divider {
-  position: relative;
-  height: 10px;
-  display: block;
+    position: relative;
+    height: 10px;
+    display: block;
 }
 
-#cover-picture{
-  overflow: hidden!important;
+#cover-picture {
+    overflow: hidden!important;
 }
 
 .nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 #contact {
-  border: 1px solid red;
+    border: 1px solid red;
 }

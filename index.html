@@ -27,23 +27,22 @@
     <nav class="navbar-wrapper container">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
-               </button>
+             </button>
                 <a class="navbar-brand" href="#">
-                    <!-- WebSiteName -->
-                    <img src="img/logo.png" width="126px" height="114px" class="" />
+                    <img src="img/logo.png" width="126px" height="114px" class="" href="#" />
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">БИДНИЙ ТУХАЙ</a></li>
-                    <li><a href="#">ҮЙЛЧИЛГЭЭ</a></li>
-                    <li><a href="#">ЗУРАГ</a></li>
-                    <li><a href="#">ХОЛБОГДОХ</a></li>
-                    <button type="button" class="btn btn-danger navbar-btn">ENG</button>
+                    <li class="active"><a href="#about">БИДНИЙ ТУХАЙ</a></li>
+                    <li><a href="#service">ҮЙЛЧИЛГЭЭ</a></li>
+                    <li><a href="#gallery">ЗУРАГ</a></li>
+                    <li><a href="#contact">ХОЛБОГДОХ</a></li>
+                    <button type="button" class="btn btn-danger navbar-btn" style="margin-left:10px" href="/en">ENG</button>
                 </ul>
             </div>
         </div>
@@ -71,7 +70,7 @@
     </div>
     <!-- /.carousel -->
     <!-- about us -->
-    <div id="about">
+    <div id="about" class="container-fluid">
         <h2 class="text-center text-uppercase">Бидний тухай</h2>
         <div id="section-divider">
             <div class="red-line"></div>
@@ -112,7 +111,7 @@
     <img class="img-responsive" src="img/100.jpg">
     <!-- picture -->
     <!-- service -->
-    <div id="service">
+    <div id="service" class="container-fluid">
         <h2 class="text-center text-uppercase">Үйлчилгээ</h2>
         <div id="section-divider">
             <div class="red-line"></div>
@@ -142,7 +141,7 @@
                     </p>
                     <button type="button" class="btn btn-danger center-block" style="margin-top:50px">Нэмэлт мэдээлэл авах</button>
                 </div>
-                <div class="col-md-6" > //padding-bottom: 100px;overflow: hidden; padding-bottom: 100px;
+                <div class="col-md-6"> //padding-bottom: 100px;overflow: hidden; padding-bottom: 100px;
                     <h4 class="text-uppercase text-center">Унадаг дугуйн худалдаа, түрээс</h4>
                     <div id="circle"></div>
                     <p class="" style="margin-top:50px">
@@ -154,7 +153,7 @@
                     <p class="">Түрээсийн унадаг дугуйг жуулчны байгаа зочид буудал, нийтийн байранд хүргэж өгч, хүлээн авна Аялалд хэрэгтэй газрын зураг, дугуйны эд зүйлс дагалдана Аялалтай холбоотой мэдээлэл бэлтгэж өгнө Аяллын эд зүйлсийн дэлгүүр хамт явна
                     </p>
                     <div style="height:100%;">
-                      <button type="button" class="btn btn-danger center-block pull-down" style="margin-top:50px">Нэмэлт мэдээлэл авах</button>
+                        <button type="button" class="btn btn-danger center-block pull-down" style="margin-top:50px">Нэмэлт мэдээлэл авах</button>
                     </div>
                 </div>
             </div>
@@ -174,7 +173,7 @@
     </div>
     <!-- picture end -->
     <!-- NEWS -->
-    <div id="news">
+    <div id="news" class="container-fluid">
         <h2 class="text-center text-uppercase">Мэдээ</h2>
         <div id="section-divider">
             <div class="red-line"></div>
@@ -184,7 +183,7 @@
     </div>
     <!-- NEWS END -->
     <!-- Gallery -->
-    <div id="gallery">
+    <div id="gallery" class="container-fluid">
         <h2 class="text-center text-uppercase">Зураг</h2>
         <div id="section-divider">
             <div class="red-line"></div>
@@ -240,7 +239,7 @@
     <!-- Gallery END -->
     <!-- CONTACT -->
 
-    <div id="contact" class="container text-center ">
+    <div id="contact" class="container text-center">
         <h2 class="text-center text-uppercase">Холбоо барих</h2>
         <div id="circle"></div>
         <address style="margin-top: 50px">
@@ -273,6 +272,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script>
+        $(function() {
+            $('#myNavbar').bind('click', 'ul li a', function(event) {
+                $.scrollTo(event.target.hash, 250);
+            });
+        });
+    </script>
 </body>
 
 </html>
