@@ -1,9 +1,10 @@
 body { padding-top: 50px; }
+
 #newscarousel .nav a small {
 	display:block;
 }
 #newscarousel .nav {
-	background: red;
+	background: red!important;
 }
 
 .btn-danger {
