@@ -1,4 +1,8 @@
+body {
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 
+/*=====================*/
 #newscarousel .nav a small {
     display: block;
 }
@@ -43,7 +47,7 @@
 
 ul.nav li a {
     color: black!important;
-    font-size: 12px!important;
+    font-size: 15px!important;
 }
 
 ul.nav li {
@@ -56,12 +60,6 @@ ul.nav li a:hover {
     background: none!important;
     background-color: transparent!important;
     color: red!important;
-}
-
-p.sansserif {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-style: italic;
-    font-size: 35px!important;
 }
 
 .red-line {
