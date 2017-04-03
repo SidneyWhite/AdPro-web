@@ -10,18 +10,18 @@
 }
 
 .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
+    /*padding-left: 0;
+    padding-right: 0;*/
 }
 
 .box {
-    position: relative;
+    /*position: relative;*/
 }
 
 .box button {
-    display: block;
+    /*display: block;*/
 		/*left: 50%;*/
-    bottom: 0;
+    /*bottom: 0;*/
 		/*position: absolute;*/
 }
 
