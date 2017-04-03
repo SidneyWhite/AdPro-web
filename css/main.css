@@ -1,33 +1,46 @@
-
-
 /*for big screens*/
+
 @media(min-width: 768px) {
-		.navbar-wrapper {
-		    margin-top: 50px!important;
-		}
-    .nav,navbar-nav {
-      margin-top: 10px;
+    .navbar-wrapper {
+        margin-top: 50px!important;
+    }
+    .nav, navbar-nav {
+        margin-top: 10px;
     }
 }
 
 .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.box {
+    position: relative;
+}
+
+.box button {
+    display: block;
+		/*left: 50%;*/
+    bottom: 0;
+		/*position: absolute;*/
 }
 
 /*===================================*/
+
 body {
-  font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .cormorant {
-  font-family: 'Cormorant', serif;
-  /*font-family: 'Marck Script', cursive;*/
-  font-size: 40px!important;
-  font-style: italic;
+    font-family: 'Cormorant', serif;
+    /*font-family: 'Marck Script', cursive;*/
+    font-size: 40px!important;
+    font-style: italic;
 }
 
+
 /*=====================*/
+
 #newscarousel .nav a small {
     display: block;
 }
@@ -59,11 +72,14 @@ body {
     .navbar-collapse {
         background-color: rgba(245, 245, 245, 0.4)
     }
-		.navbar-wrapper {
-		    margin-top: 50px!important;
-		    margin-right: 50px!important;
-		    margin-left: 50px!important;
-		}
+    .navbar-wrapper {
+        margin-top: 50px!important;
+        margin-right: 50px!important;
+        margin-left: 50px!important;
+    }
+    .box {
+        height: auto !important;
+    }
 }
 
 .icon-bar {
