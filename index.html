@@ -83,7 +83,7 @@
                 <img class="center-block" src="img/about/140.jpg" width="100" height="100">
                 <img class="center-block" src="img/about/130.jpeg" width="100" height="100">
             </div>
-            <div class="col-md-6" style="padding: 0 100px 50px 100px">
+            <div class="col-md-6 about-col">
                 <p class="text-justify">AdPro ххк нь 2016 оноос маркетинг, зар сурталчилгаа, гадаад худалдааны чиглэлээр үйл ажиллагаа эрхлэж байна. Одоогоор бид унадаг дугуйтай хөдөлгөөнт зар сурталчилгаа, уулын дугуйн худалдаа, түрээсийн үйлчилгээг үзүүлж байна. Цаашид бид
                     бүтээгдэхүүн үйлчилгээнийхээ төрөл, чанар, хүртээмжийг нэмэгдүүлж, хэрэглэгчдийнхээ хэрэгцээ шаардлагыг хангасан орчин үеийн үр дүнтэй, шинэлэг бүтээгдэхүүн, үйлчилгээг зах зээлд нэвтрүүлэх болно.
                 </p>
@@ -106,14 +106,26 @@
     <!-- picture -->
     <!-- service -->
     <div id="service" class="container-fluid">
-        <h4 class="text-center text-uppercase"><strong>Үйлчилгээ</strong></h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="icon center-block pull-right" src="img/service/icon.jpg" width="90" height="50">
+                </div>
+                <div class="col-md-6 col-xs-12" style="padding-top:10px">
+                    <h4 class="text-center text-uppercase"><strong>Үйлчилгээ</strong></h4>
+                </div>
+                <div class="col-md-3">
+                    <img class="icon2 center-block pull-left" src="img/service/icon2.jpg" width="50" height="50">
+                </div>
+            </div>
+        </div>
         <div id="section-divider">
             <div class="red-line"></div>
             <div id="circle"></div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-xs-12" style="padding:50px 100px 50px 100px;">
+                <div class="col-md-6 col-xs-12 service-col" style="">
                     <div class="box box-1">
                         <h4 class="text-uppercase text-center">Хөдөлгөөнт зар сурталчилгаа</h4>
                         <div id="circle"></div>
@@ -138,7 +150,7 @@
                         <button type="button" class="btn btn-danger center-block" style="margin-top:50px">Нэмэлт мэдээлэл авах</button>
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-12" style="padding:50px 100px 50px 100px;">
+                <div class="col-md-6 col-xs-12 service-col">
                     <div class="box box-2">
                         <h4 class="text-uppercase text-center">Унадаг дугуйн худалдаа, түрээс</h4>
                         <div id="circle"></div>
@@ -407,7 +419,7 @@
             $('.pull-down').each(function() {
 
                 var $this = $(this);
-                $this.css('margin-top', $('.box-1').height() - $('.box-2').height()+10);
+                $this.css('margin-top', $('.box-1').height() - $('.box-2').height() + 10);
             });
         });
 

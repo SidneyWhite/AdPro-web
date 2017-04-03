@@ -7,6 +7,33 @@
     .nav, navbar-nav {
         margin-top: 10px;
     }
+    .service-col {
+        padding: 50px 100px 50px 100px;
+    }
+    .about-col {
+        padding: 0 100px 50px 100px;
+    }
+}
+
+@media(max-width: 768px) {
+    .navbar-collapse {
+        background-color: rgba(245, 245, 245, 0.4)
+    }
+    .navbar-wrapper {
+        margin-top: 50px!important;
+        margin-right: 50px!important;
+        margin-left: 50px!important;
+    }
+    .box {
+        height: auto !important;
+    }
+    .icon {
+        display: none;
+    }
+    .icon2 {
+        /*display: none;*/
+        float: none!important;
+    }
 }
 
 .container-fluid {
@@ -20,10 +47,11 @@
 
 .box button {
     /*display: block;*/
-		/*left: 50%;*/
+    /*left: 50%;*/
     /*bottom: 0;*/
-		/*position: absolute;*/
+    /*position: absolute;*/
 }
+
 
 /*===================================*/
 
@@ -68,20 +96,6 @@ body {
     /* Rounded corners */
 }
 
-@media(max-width: 768px) {
-    .navbar-collapse {
-        background-color: rgba(245, 245, 245, 0.4)
-    }
-    .navbar-wrapper {
-        margin-top: 50px!important;
-        margin-right: 50px!important;
-        margin-left: 50px!important;
-    }
-    .box {
-        height: auto !important;
-    }
-}
-
 .icon-bar {
     background-color: white!important;
 }
@@ -89,15 +103,15 @@ body {
 ul.nav li a {
     color: black!important;
     font-size: 17px!important;
-		padding: 0px;
+    padding: 0px;
 }
 
 ul.nav li {
     border-right: solid red;
     padding-left: 30px;
     padding-right: 30px;
-		margin-top: 15px;
-		/*margin-bottom: 10px;*/
+    margin-top: 15px;
+    /*margin-bottom: 10px;*/
 }
 
 ul.nav li a:hover {
