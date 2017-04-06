@@ -68,9 +68,18 @@ body {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
-.cormorant {
-    font-family: 'Cormorant', serif;
-    /*font-family: 'Marck Script', cursive;*/
+@font-face {
+    font-family: 'avalonquestregular';
+    src: url('../fonts/avalon-webfont.eot');
+    src: url('../fonts/avalon-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/avalon-webfont.woff') format('woff'),
+    url('../fonts/avalon-webfont.ttf') format('truetype'),
+    /*url('../fonts/avalon-webfont.svg#avalonquestregular') format('svg');*/
+    font-weight: normal;
+}
+
+.avalon {
+    font-family: avalonquestregular;
     font-size: 40px!important;
     font-style: italic;
 }
