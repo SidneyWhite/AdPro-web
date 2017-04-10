@@ -80,9 +80,12 @@ body {
     font-style: italic;
     font-weight: 400;
     line-height: 1.29231;
-    font-family: 'Cormorant Infant', serif;
+    /*font-family: 'Cormorant Infant', serif;*/
+    /*font-family: 'Decor Italic', arial;*/
     /*avalonquestregular;*/
-    font-size: 35px!important;
+    /*font-family: 'Margarita script', arial;*/
+    font-family: 'Avalon Medium', arial;
+    font-size: 51px!important;
 }
 
 
