@@ -10,6 +10,12 @@
 /*for big screens*/
 
 @media(min-width: 768px) {
+    .carousel-caption {
+        padding-bottom: 0px!important;
+    }
+    .carousel-caption h1 {
+        margin-bottom: 0px!important;
+    }
     .navbar-wrapper {
         margin-top: 50px!important;
     }
